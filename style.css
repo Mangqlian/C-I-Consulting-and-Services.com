@@ -1,0 +1,282 @@
+body 
+{ margin: 0}
+
+.icon-bar 
+{ width: 100%;
+  background-color: #555;
+  overflow: auto;
+}
+
+.icon-bar a {
+  float: right;
+  width: 16%;
+  text-align: center;
+  padding: 12px 0;
+  transition: all 0.3s ease;
+  color: #ffffff;
+  font-size: 33px;
+  font-family: "Trebuchet MS"
+}
+
+.icon-bar a:hover {
+  background-color: #152238;
+}
+
+.active {
+  background-color: #000000;
+}
+	
+.parallax {
+  /* The image used */
+  background-image: url("main background 1 edited.jpg");
+
+  /* Set a specific height */
+  min-height: 700px; 
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  
+  text-align: center;
+  vertical-align: middle;
+}
+
+h1
+{ margin-left: auto;
+  margin-right: auto;
+  margin-top: auto;
+  margin-bottom: auto;
+  text-align: center;
+  font-size: 180px;
+  color: #ffffff;
+}
+
+h2
+{font-size: 30px;}
+
+h1,h2,h3,h4,h5,h6
+{font-family: "Trebuchet MS";}
+
+br
+{ font-size: 70px;}
+
+a
+{ text-decoration: none;
+  outline: 2px solid;
+padding: 5px 5px;}
+
+.button 
+{ text-decoration: none;
+  outline: 2px solid;
+  padding: 5px 5px;
+background-color #ffffff;}
+
+.button:hover 
+{ background-color: #dee5f2;}
+
+.button:active 
+{ background-color: #dee5f2;
+transform: translateY(4px);}
+
+table
+{ margin-left: 90px;
+  margin-right: auto;
+  
+  width:600px;
+  border:0;}
+  
+table,td
+{ border: 0;
+border-spacing: 0px;}
+
+.introduction
+{ background-image: url("introduction background.jpg");
+  min-height: 410px; 
+  margin-top: 0;
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed ;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: center;
+  color: #ff8c00;
+}
+
+.introexplanation
+{ color: #ffffff;
+  width: 1000px;
+  margin-left: 250px;
+  margin-right: 250px;
+  border-left: solid 2px #ffffff;
+  border-right: solid 2px #ffffff;
+  
+} 
+
+.arrow {
+  border: solid white;
+  border-width: 0 3px 3px 0;
+  display: inline-block;
+  padding: 3px;
+}
+
+.right
+{  transform: rotate(-45deg);
+  -webkit-transform: rotate(-45deg);
+}
+
+.visionandmission
+{ width: 300px;
+  height: 300px;
+  border: 1px solid #152238;
+  padding: 10px;
+  outline: 2px solid;
+  display: flex;
+  flex-wrap: wrap;
+  align-content: center;
+  float: left;
+  margin-left: 250px;
+  margin-top: 100px;
+box-shadow: 2px 2px 4px #152238;}
+  
+.visionexplanation
+{ float: right;
+  margin-right: 250px;
+  margin-top: 100px;
+  width: 600px;
+height: 300px;}
+  
+ 
+
+.parallax2
+{background-color: #ffffff;
+}
+
+.parallax3
+{ background-image: url("main background 2 edited.jpg");
+  color: #ffffff;
+  padding-top: 50px;}
+
+.parallax2,.parallax3
+{min-height: 500px;
+background-attachment: fixed;
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;}
+
+.parallax3explanation
+{ margin-left: 250px;
+  margin-right: 250px;
+  align-content: center;
+}
+
+.serviceparallax 
+{ background-image: url("main background 1 dited.jpg");
+  min-height: 700px; 
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: center;
+  vertical-align: middle;
+}
+
+.b2b
+{ background-color: #ffffff;}
+
+.wavehandgif
+{ overflow: hidden;
+  position: fixed;
+  top: 80px;
+}
+
+
+.services
+{ box-sizing: border-box;
+  content: "";
+  clear: both;
+  display: table;
+  margin-left: 250px;}
+
+.service1
+{ width: 280px;
+  height: 280px;
+  border: 1px solid #c3c3c3;
+  padding: 10px;
+  outline: 2px solid;
+  display: flex;
+  flex-wrap: wrap;
+  align-content: center;
+  float: left;
+  text-align: center;
+  margin: 10px;
+  box-shadow: 2px 2px 4px #000000;}
+  
+.service3rdpart
+{ background-image: url("services background 2 edited.jpg");
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 500px;
+  margin-top: 40px;
+  color: #ffffff;}
+
+.softskilldev
+{ width: 200px;
+  height: 200px;
+  border: 1px solid #c3c3c3;
+  padding: 10px;
+  outline: 2px solid;
+  display: flex;
+  flex-wrap: wrap;
+  align-content: center;
+  float: left;
+  margin-top: 30px;
+  margin-left: 250px;
+  }
+  
+.softskillexp
+{ float: right;
+  margin-top: 45px;
+  margin-right: 400px;
+  margin-left: 20px;
+  width: 600px;
+  height: 300px;
+  }
+  
+.socialicons
+{ width: 900px;
+  height: 500px;
+  border: 1px solid #dee5f2;
+  background-color: #dee5f2;
+  padding: 10px;
+  outline: 2px solid;
+  display: flex;
+  flex-wrap: wrap;
+  align-content: center;
+  float: middle;
+  margin-top: 30px;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 25px;
+  opacity: 80%;}
+
+.icon1
+{ width: 900px;
+align-content: left;}
+ 
+img
+{ margin-left: auto;
+margin-right: auto;}
+
+
+/* Turn off parallax scrolling for tablets and phones. Increase the pixels if needed */
+@media only screen and (max-device-width: 1366px) {
+  .parallax {
+    background-attachment: scroll;
+  }
+
+
+
